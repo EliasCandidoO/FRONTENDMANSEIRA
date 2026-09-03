@@ -7,8 +7,7 @@ import vueLogo from '../assets/vue.svg'
 const count = ref(0)
 </script>
 
-<template>
-  <section id="center">
+<template>  <section id="center">
     <div class="hero">
       <img :src="heroImg" class="base" width="170" height="179" alt="" />
       <img :src="vueLogo" class="framework" alt="Vue logo" />
